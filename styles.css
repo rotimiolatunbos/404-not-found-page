@@ -15,12 +15,12 @@ body {
 		width: 100%;
 	}
 	#img-container {
-		width: calc(100% - 20px);
-		margin: 100px auto;
+/*		width: calc(100% - 20px);*/
+		margin: 100px 20px;
 		display: block;
 	}
 	img {
-		width: inherit;
+		width: 100%;
 		height: auto;
 	}
 	#text-container {
