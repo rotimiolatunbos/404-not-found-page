@@ -5,9 +5,72 @@
 body {
 	margin: 0;
 }
+
+@media (max-width: 575px) {
+	h1 {
+		margin: 20px 0 0 20px;
+	}
+	#container {
+		display: block;
+		width: 100%;
+	}
+	#img-container {
+		width: calc(100vw - 20px);
+		margin: 100px auto;
+		display: block;
+	}
+	img {
+		width: inherit;
+		height: auto;
+	}
+	#text-container {
+		width: calc(100% - 40px);
+		margin: 0 0 0 20px;
+		display: block;
+	}
+	h2 {
+		font-size: 48px;
+		line-height: 61px;
+	}
+	p {
+		font-size: 18px;
+		text-align: left;
+	}
+	a {
+		display: inline-block;
+		margin-bottom: 40px;
+	}
+}
+
+@media (min-width: 576px) {
+	h1 {
+		margin: 40px 0 0 77px;
+	}
+	#container {
+		display: flex;
+		align-items: center;
+		width: 1171px;
+		height: calc(100vh - 95px);
+		margin: 0 auto;
+	}
+	#img-container {
+		width: 539px;
+		display: inline-block;
+	}
+	#text-container {
+		margin-left: 40px;
+		width: 588px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	h2 {
+		font-size: 64px;
+		line-height: 95px;
+	}
+}
+
 h1 {
 	font-family: Inconsolata;
-	margin: 40px 0 0 77px;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
@@ -15,33 +78,16 @@ h1 {
 	letter-spacing: -0.08em;
 	text-transform: uppercase;
 }
-#container {
-	display: flex;
-	align-items: center;
-	width: 1171px;
-	height: calc(100vh - 95px);
-	margin: 0 auto;
-}
-#img-container {
-	width: 539px;
-	display: inline-block;
-}
 img {
 	width: 100%;
 	height: auto;
 }
 #text-container {
-	margin-left: 40px;
-	width: 588px;
-	display: inline-block;
-	vertical-align: top;
 	font-family: space mono, monospace, sans-serif;
-	letter-spacing: -0.035em;
+		letter-spacing: -0.035em;
 }
 h2 {
-	font-size: 64px;
 	margin: 0;
-	line-height: 95px;
 }
 p {
 	font-size: 24px;
@@ -62,32 +108,3 @@ a {
 	margin-top: 1px;
 }
 
-@media only screen and (max-width: 575px) {
-	h1 {
-		margin: 20px 0 0 40px;
-	}
-	#container {
-		display: block;
-	}
-	#img-container {
-		width: calc(100vw - 88px);
-		margin: 0 auto;
-		display: block;
-	}
-	img {
-		width: 100%;
-		height: auto;
-	}
-	#text-container {
-		width: calc(100vw - 40px);
-		margin: 0 20px;
-		display: block;
-	}
-	h2 {
-		font-size: 48px;
-		line-height: 71px;
-	}
-	p {
-		font-size: 18px;
-	}
-}
