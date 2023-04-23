@@ -4,6 +4,7 @@
 }
 body {
 	margin: 0;
+	position: relative;
 }
 
 @media (max-width: 575px) {
@@ -110,8 +111,6 @@ p {
 	text-align: center;
 	color: #BDBDBD;
 	font-family: Montserrat;
-/*	position: absolute;
-	bottom: 10px;*/
 	width: 100%;
 	margin: 0;
 }
