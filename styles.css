@@ -59,4 +59,34 @@ a {
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 24px 43px 23px;
+	margin-top: 1px;
+}
+
+@media only screen and (max-width: 575px) {
+	h1 {
+		margin: 20px 0 0 40px;
+	}
+	#container {
+		display: block;
+	}
+	#img-container {
+		width: calc(100% - 88px);
+		margin: 0 auto;
+		display: block;
+	}
+	img {
+		width: 100%;
+	}
+	#text-container {
+		width: 100%;
+		margin: 0 30px;
+		display: block;
+	}
+	h2 {
+		font-size: 48px;
+		line-height: 71px;
+	}
+	p {
+		font-size: 18px;
+	}
 }
