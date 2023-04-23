@@ -15,7 +15,7 @@ body {
 		width: 100%;
 	}
 	#img-container {
-		width: calc(100vw - 20px);
+		width: calc(100% - 20px);
 		margin: 100px auto;
 		display: block;
 	}
