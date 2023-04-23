@@ -95,7 +95,7 @@ p {
 	line-height: 35.64px;
 	margin: 36px 0 88px;
 }
-a {
+#text-container a {
 	font-family: Space Mono;
 	font-size: 14px;
 	font-weight: 700;
@@ -106,5 +106,21 @@ a {
 	text-transform: uppercase;
 	padding: 24px 43px 23px;
 	margin-top: 1px;
+}
+#footer {
+	text-align: center;
+	color: #BDBDBD;
+	font-family: Montserrat;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	margin: 0;
+}
+#footer span {
+	font-weight: bold;
+	color: #BDBDBD;
+}
+#footer a {
+	color: #BDBDBD;
 }
 
