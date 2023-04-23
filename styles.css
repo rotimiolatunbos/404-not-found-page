@@ -4,6 +4,7 @@
 }
 body {
 	margin: 0;
+	display: flex;
 }
 
 @media (max-width: 575px) {
@@ -15,7 +16,6 @@ body {
 		width: 100%;
 	}
 	#img-container {
-/*		width: calc(100% - 20px);*/
 		margin: 100px 20px;
 		display: block;
 	}
@@ -111,8 +111,8 @@ p {
 	text-align: center;
 	color: #BDBDBD;
 	font-family: Montserrat;
-	position: absolute;
-	bottom: 10px;
+/*	position: absolute;
+	bottom: 10px;*/
 	width: 100%;
 	margin: 0;
 }
